@@ -56,6 +56,8 @@
 		459F5B2B2412321F00EC9A9B /* ShoppingCart */ = {
 			isa = PBXGroup;
 			children = (
+				459F5B41241234B100EC9A9B /* Model */,
+				459F5B40241234A600EC9A9B /* Views */,
 				459F5B2C2412321F00EC9A9B /* AppDelegate.swift */,
 				459F5B2E2412322000EC9A9B /* SceneDelegate.swift */,
 				459F5B302412322000EC9A9B /* ContentView.swift */,
@@ -73,6 +75,20 @@
 				459F5B352412322100EC9A9B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		459F5B40241234A600EC9A9B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		459F5B41241234B100EC9A9B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
