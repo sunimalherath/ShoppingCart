@@ -13,6 +13,7 @@
 		459F5B332412322100EC9A9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459F5B322412322100EC9A9B /* Assets.xcassets */; };
 		459F5B362412322100EC9A9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459F5B352412322100EC9A9B /* Preview Assets.xcassets */; };
 		459F5B392412322100EC9A9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459F5B372412322100EC9A9B /* LaunchScreen.storyboard */; };
+		459F5B432412350500EC9A9B /* ShopList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F5B422412350500EC9A9B /* ShopList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		459F5B352412322100EC9A9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		459F5B382412322100EC9A9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		459F5B3A2412322100EC9A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		459F5B422412350500EC9A9B /* ShopList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,6 @@
 				459F5B40241234A600EC9A9B /* Views */,
 				459F5B2C2412321F00EC9A9B /* AppDelegate.swift */,
 				459F5B2E2412322000EC9A9B /* SceneDelegate.swift */,
-				459F5B302412322000EC9A9B /* ContentView.swift */,
 				459F5B322412322100EC9A9B /* Assets.xcassets */,
 				459F5B372412322100EC9A9B /* LaunchScreen.storyboard */,
 				459F5B3A2412322100EC9A9B /* Info.plist */,
@@ -80,6 +81,8 @@
 		459F5B40241234A600EC9A9B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				459F5B302412322000EC9A9B /* ContentView.swift */,
+				459F5B422412350500EC9A9B /* ShopList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			files = (
 				459F5B2D2412321F00EC9A9B /* AppDelegate.swift in Sources */,
 				459F5B2F2412322000EC9A9B /* SceneDelegate.swift in Sources */,
+				459F5B432412350500EC9A9B /* ShopList.swift in Sources */,
 				459F5B312412322000EC9A9B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
