@@ -37,44 +37,8 @@ struct ShopList: View {
     }
 }
 
-struct Cart: View {
-    var cartItems: Int
-    var body: some View {
-        ZStack{
-            Image("cart")
-            .resizable()
-            .frame(width: 50, height: 50)
-            ZStack{
-                Circle()
-                    .fill(Color.red)
-                    .frame(maxWidth: 25)
-                Text("\(cartItems)")
-                    .fontWeight(.bold)
-                    .foregroundColor(Color.white)
-            }
-            .offset(x: 20, y: 10)
-            .opacity(cartItems > 0 ? 1.0 : 0)
-        }
-        
-    }
-}
 
-struct ShopRow: View {
-    var inCart: Bool
-    var shopItem: ShopItem
-    var body: some View {
-        HStack{
-            Text(shopItem.name)
-            Text("$\(String.init(format: "%.2f", shopItem.price))")
-                .fontWeight(.bold)
-            Spacer()
-            Image(inCart ? "checked" : "unchecked")
-            .resizable()
-                .aspectRatio(1, contentMode: .fit)
-            .frame(width: 50)
-        }
-    }
-}
+
 
 struct ShopRow_Previews: PreviewProvider {
     static var previews: some View {

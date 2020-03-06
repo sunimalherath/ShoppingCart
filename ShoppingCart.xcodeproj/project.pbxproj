@@ -15,6 +15,8 @@
 		459F5B392412322100EC9A9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459F5B372412322100EC9A9B /* LaunchScreen.storyboard */; };
 		459F5B432412350500EC9A9B /* ShopList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F5B422412350500EC9A9B /* ShopList.swift */; };
 		459F5B45241245C000EC9A9B /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F5B44241245C000EC9A9B /* ShopItem.swift */; };
+		459F5B47241286A900EC9A9B /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F5B46241286A900EC9A9B /* Cart.swift */; };
+		459F5B492412872C00EC9A9B /* ShopRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F5B482412872C00EC9A9B /* ShopRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		459F5B3A2412322100EC9A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		459F5B422412350500EC9A9B /* ShopList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopList.swift; sourceTree = "<group>"; };
 		459F5B44241245C000EC9A9B /* ShopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
+		459F5B46241286A900EC9A9B /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		459F5B482412872C00EC9A9B /* ShopRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 			children = (
 				459F5B302412322000EC9A9B /* ContentView.swift */,
 				459F5B422412350500EC9A9B /* ShopList.swift */,
+				459F5B46241286A900EC9A9B /* Cart.swift */,
+				459F5B482412872C00EC9A9B /* ShopRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,7 +175,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				459F5B2D2412321F00EC9A9B /* AppDelegate.swift in Sources */,
+				459F5B47241286A900EC9A9B /* Cart.swift in Sources */,
 				459F5B2F2412322000EC9A9B /* SceneDelegate.swift in Sources */,
+				459F5B492412872C00EC9A9B /* ShopRow.swift in Sources */,
 				459F5B45241245C000EC9A9B /* ShopItem.swift in Sources */,
 				459F5B432412350500EC9A9B /* ShopList.swift in Sources */,
 				459F5B312412322000EC9A9B /* ContentView.swift in Sources */,
