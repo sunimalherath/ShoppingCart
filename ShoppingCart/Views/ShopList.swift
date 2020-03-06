@@ -20,7 +20,7 @@ struct ShopList: View {
                 }
             }
             .navigationBarTitle("The Shop")
-            .navigationBarItems(trailing: Cart())
+            .navigationBarItems(trailing: Cart(cartItems: cartItems.count))
         }
     }
     
@@ -38,10 +38,24 @@ struct ShopList: View {
 }
 
 struct Cart: View {
+    var cartItems: Int
     var body: some View {
-        Image("cart")
-        .resizable()
-        .frame(width: 50, height: 50)
+        ZStack{
+            Image("cart")
+            .resizable()
+            .frame(width: 50, height: 50)
+            ZStack{
+                Circle()
+                    .fill(Color.red)
+                    .frame(maxWidth: 25)
+                Text("\(cartItems)")
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.white)
+            }
+            .offset(x: 20, y: 10)
+            .opacity(cartItems > 0 ? 1.0 : 0)
+        }
+        
     }
 }
 
